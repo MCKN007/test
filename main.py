@@ -3,7 +3,7 @@ print ("导入RPi.GPIO库用于控制GPIO引脚")
 import RPi.GPIO as GPIO
 import time
 
-# 定义要控制的4个GPIO引脚（你可以根据实际接线修改）
+# 定义要控制的4个GPIO引脚
 RELAY_PINS = [17, 18, 27, 22]  # 对应树莓派的BCM编号
 def setup_relays():
     print ("初始化继电器GPIO引脚"）
