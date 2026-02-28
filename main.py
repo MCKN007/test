@@ -5,6 +5,7 @@ import time
 
 # 定义要控制的4个GPIO引脚
 RELAY_PINS = [17, 18, 27, 22]  # 对应树莓派的BCM编号
+print("指定针脚为17、18、27、22，确认无误后执行")
 def setup_relays():
     print ("初始化继电器GPIO引脚"）
     # 设置GPIO编号模式为BCM（树莓派通用的编号方式）
